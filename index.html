@@ -6,5 +6,25 @@
 <body>
     <h1>Hello World</h1>
     <p>Hello from your classmate!</p> 
+    
+    <!-- Fistbump button -->
+    <button class="btn-fistbump" onclick="throwFistbumps()">🤜🤛 Fistbump</button>
+
+    <!-- Script for the fistbump effect -->
+    <script>
+        function throwFistbumps() {
+            for (let i = 0; i < 10; i++) {
+                const bump = document.createElement('div');
+                bump.classList.add('fistbump');
+                bump.innerText = '🤜🤛'; 
+                bump.style.left = (Math.random() * 100) + 'vw';
+                bump.style.animationDuration = (Math.random() * 2 + 1) + 's';
+                document.body.appendChild(bump);
+
+                // Remove heart after animation ends
+                setTimeout(() => { bump.remove(); }, 2000);
+            }
+        }
+    </script>
 </body>
 </html>
