@@ -2,6 +2,9 @@
 
 Following [To-Do List](./Workshop-Git-Github.md)
 
+### Project Progress
+[████████████████████████████████████████] 100% Done 🎉
+
 ## To create and setup
 ```bash
 # Create project folder
@@ -95,4 +98,30 @@ git tag
 
 # 4. Explicitly push the tag to GitHub
 git push origin v1.0.0
+```
+
+## **Branching, Merging, and Cleaning Up**
+
+```bash
+# 1. Create and switch to a new feature branch
+git checkout -b add-button
+
+# 2. Stage and commit my changes locally on my feature branch
+git add index.html style.css
+git commit -m "Add double fistbump button and styles"
+
+# 3. Push the feature branch to my GitHub
+git push origin add-button
+
+# 4. Switch back to my main branch
+git checkout main
+
+# 5. Merge the feature branch changes directly into main locally
+git merge add-button
+
+# 6. Push the updated main branch to GitHub
+git push origin main
+
+# 7. Delete the local feature branch now that it is fully merged
+git branch -d add-button
 ```

@@ -41,9 +41,9 @@
    
   ## 🚀 Task 3: Advanced Challenges (Optional)
   
-  *  [ ] 🌿 Branching and Merging:** Create a new branch, make changes, commit, and merge it back into the `main` branch.
+  *  [x] 🌿 Branching and Merging:** Create a new branch, make changes, commit, and merge it back into the `main` branch.
   *  [x] 🤝 Collaborating with Pull Requests:** Fork a classmate’s repository, make an improvement, and open a Pull Request (PR) to suggest your changes.
-  *  [ ] ⏮️ Revert and Reset:** Experiment with reverting or resetting commits to undo or move between versions.
+  *  [x] ⏮️ Revert and Reset:** Experiment with reverting or resetting commits to undo or move between versions.
   *  [x] 🏷️ Tagging and Releases:** Create and push tags to mark version releases of your project on GitHub.
   
   ---
